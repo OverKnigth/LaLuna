@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    padding: 10px;
+    border-radius: 10%;
+}
+
 .navbar-brand img {
-    width: 50px; /* Ajusta el tamaño según tus necesidades */
-    height: 50px;
+    width: 60px; /* Ajusta el tamaño según tus necesidades */
+    height: 60px;
+    margin-left: 10px;
 }
 
 .navbar {
@@ -28,4 +35,8 @@
 
 .form-control {
     width: 200px; /* Ancho del campo de búsqueda */
+}
+
+.card-text {
+    text-align: justify;
 }
